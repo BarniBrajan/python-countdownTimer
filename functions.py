@@ -2,7 +2,6 @@ def setUserValue( timeType ):
     while True:        
         userValue = input("Set " + timeType +" time to countdown: ")
         try:
-            
             convertedValue = int(userValue)
             return convertedValue
             exit()
